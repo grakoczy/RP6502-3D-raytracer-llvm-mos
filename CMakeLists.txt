@@ -8,9 +8,5 @@ rp6502_executable(raytracer)
 target_sources(raytracer PRIVATE
     src/colors.c
     src/bitmap_graphics.c
-    # src/main.c
-    # src/scene.c
-    src/qfp16.c
-    # src/raytracer_qfp16.c
     src/raytracer_float.c
 )
